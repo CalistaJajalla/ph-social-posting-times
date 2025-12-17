@@ -1,6 +1,7 @@
 # 📁 Best Time to Post on Social Media This Christmas
 
 ---
+![Banner](pictures/banner.png)
 
 ## About the Project
 
@@ -34,11 +35,11 @@ The goal is to help content creators and marketers understand the best times to 
 
 ```mermaid
 flowchart TD
-    data_gen[Data Generation<br>(Synthetic Engagement CSV)]
-    ml_train[ML Training<br>(Random Forest Model)]
-    saved_models["Saved Models<br>(encoder & regressor joblib)"]
-    notebook[Interactive Jupyter Notebook<br>(Data Gen, ML, Viz)]
-    dashboard["Interactive Dashboard HTML<br>(Plotly + ipywidgets)"]
+    data_gen["Data Generation\n(Synthetic Engagement CSV)"]
+    ml_train["ML Training\n(Random Forest Model)"]
+    saved_models["Saved Models\n(encoder & regressor joblib)"]
+    notebook["Interactive Jupyter Notebook\n(Data Gen, ML, Viz)"]
+    dashboard["Interactive Dashboard HTML\n(Plotly + ipywidgets)"]
 
     data_gen --> ml_train
     ml_train --> saved_models
@@ -46,7 +47,9 @@ flowchart TD
     notebook --> dashboard
 ```
 
-## Dashboard Features
+## Website Features
+
+![Top3table](pictures/top3table.png)
 
 - Heatmaps showing average engagement by hour and platform
 - Top 3 posting hours per platform per selected date
@@ -54,7 +57,9 @@ flowchart TD
 - Line charts of engagement trends over the day
 - Fully exportable to standalone HTML for easy sharing
 
-### Live demo link: https://calistajajalla.github.io/ph-social-posting-times/interactive_christmas_blog.html
+![Linegraph](pictures/Linegraph.png)
+
+### Website link: https://calistajajalla.github.io/ph-social-posting-times/interactive_christmas_blog.html
 
 ## Next Steps / Recommendations
 
@@ -72,3 +77,4 @@ flowchart TD
 - Ghosh et al., Understanding Engagement Dynamics on Social Platforms
 https://arxiv.org/abs/1901.00076
 - Philippine Christmas season behavior patterns (industry heuristics)
+
