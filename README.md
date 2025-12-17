@@ -34,17 +34,18 @@ The goal is to help content creators and marketers understand the best times to 
 ## Architecture Diagram
 
 ```mermaid
-flowchart TD
     data_gen["Data Generation\n(Synthetic Engagement CSV)"]
     ml_train["ML Training\n(Random Forest Model)"]
     saved_models["Saved Models\n(encoder & regressor joblib)"]
     notebook["Interactive Jupyter Notebook\n(Data Gen, ML, Viz)"]
     dashboard["Interactive Dashboard HTML\n(Plotly + ipywidgets)"]
 
-    data_gen --> ml_train
-    ml_train --> saved_models
-    saved_models --> notebook
+    data_gen --> notebook
     notebook --> dashboard
+
+    data_gen -.-> ml_train
+    ml_train -.-> saved_models
+    saved_models -.-> notebook
 ```
 
 ## Website Features
@@ -57,7 +58,7 @@ flowchart TD
 - Line charts of engagement trends over the day
 - Fully exportable to standalone HTML for easy sharing
 
-![Linegraph](pictures/Linegraph.png)
+![Linegraph](pictures/linegraph.png)
 
 ### Website link: https://calistajajalla.github.io/ph-social-posting-times/interactive_christmas_blog.html
 
@@ -77,4 +78,5 @@ flowchart TD
 - Ghosh et al., Understanding Engagement Dynamics on Social Platforms
 https://arxiv.org/abs/1901.00076
 - Philippine Christmas season behavior patterns (industry heuristics)
+
 
