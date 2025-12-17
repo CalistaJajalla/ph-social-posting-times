@@ -6,8 +6,8 @@
 2. [About the Dataset](#2-about-the-dataset)  
 3. [Setup Python Virtual Environment (venv)](#3-setup-python-virtual-environment-venv)  
 4. [Data Generation, ML Training & Visualization Notebook](#4-data-generation-ml-training--visualization-notebook)  
-5. [Docker Compose Setup](#5-docker-compose-setup)
-6. [References](References)
+5. [Docker Compose Setup](#5-docker-compose-setup)  
+6. [References](#references)
 
 ---
 
@@ -58,7 +58,7 @@ Isolate dependencies by creating and activating a Python virtual environment, th
 python3 -m venv venv  
 source venv/bin/activate       # Windows: .\venv\Scripts\activate  
 pip install --upgrade pip  
-pip install requirements,txt
+pip install requirements.txt
 ```
 
 ---
@@ -244,7 +244,7 @@ with open("output/interactive_christmas_blog.html", "w", encoding="utf-8") as f:
 
 5. Docker Compose Setup
 
-```bash
+```yaml
 For easier deployment, create a docker-compose.yml to run Jupyter Lab with your environment:
 
 version: '3.8'
