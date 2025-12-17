@@ -240,7 +240,7 @@ with open("output/interactive_christmas_blog.html", "w", encoding="utf-8") as f:
 
 4. Open this file in any modern browser to explore best posting hours by platform and date with rich interactivity.
 
-### Link: 
+### Link: https://calistajajalla.github.io/ph-social-posting-times/interactive_christmas_blog.html
 
 ## Docker Compose Setup
 
