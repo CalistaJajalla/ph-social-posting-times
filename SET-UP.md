@@ -231,7 +231,7 @@ display(VBox([dropdown, out_table, out_line]))
 update_dashboard({"new": list(day_data.keys())[0]})
 ```
 
-3, Export full interactive dashboard as self-contained HTML:
+3. Export full interactive dashboard as self-contained HTML:
 
 ```
 with open("output/interactive_christmas_blog.html", "w", encoding="utf-8") as f:
@@ -242,7 +242,7 @@ with open("output/interactive_christmas_blog.html", "w", encoding="utf-8") as f:
 
 ### Link: 
 
-5. (Optional) Docker Compose Setup
+5. Docker Compose Setup
 
 ```bash
 For easier deployment, create a docker-compose.yml to run Jupyter Lab with your environment:
