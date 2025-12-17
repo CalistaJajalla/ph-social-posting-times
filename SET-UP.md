@@ -6,7 +6,7 @@
 2. [About the Dataset](#2-about-the-dataset)  
 3. [Setup Python Virtual Environment (venv)](#3-setup-python-virtual-environment-venv)  
 4. [Data Generation, ML Training & Visualization Notebook](#4-data-generation-ml-training--visualization-notebook)  
-5. [Docker Compose Setup](#5-docker-compose-setup)  
+5. [Docker Compose Setup](#docker-compose-setup)
 6. [References](#references)
 
 ---
