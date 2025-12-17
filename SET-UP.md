@@ -48,7 +48,7 @@ Features:
 - Hourly and daily seasonality (Commute, work and school hours, etc.)
 - Platform-specific peak hours
 
-This synthetic data is designed for training models and exploring optimal posting schedules during the festive season.
+This synthetic data is designed for training models and exploring optimal posting schedules during the festive season. I took inspiration in some sites (see References below), but they were either 'not specific to Christmas season' or 'not PH-based'.
 
 ## 3. Setup Python Virtual Environment (venv)
 
