@@ -34,6 +34,7 @@ The goal is to help content creators and marketers understand the best times to 
 ## Architecture Diagram
 
 ```mermaid
+flowchart TD
     data_gen["Data Generation\n(Synthetic Engagement CSV)"]
     ml_train["ML Training\n(Random Forest Model)"]
     saved_models["Saved Models\n(encoder & regressor joblib)"]
@@ -78,5 +79,6 @@ The goal is to help content creators and marketers understand the best times to 
 - Ghosh et al., Understanding Engagement Dynamics on Social Platforms
 https://arxiv.org/abs/1901.00076
 - Philippine Christmas season behavior patterns (industry heuristics)
+
 
 
