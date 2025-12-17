@@ -242,7 +242,7 @@ with open("output/interactive_christmas_blog.html", "w", encoding="utf-8") as f:
 
 ### Link: 
 
-5. Docker Compose Setup
+## Docker Compose Setup
 
 ```yaml
 For easier deployment, create a docker-compose.yml to run Jupyter Lab with your environment:
